@@ -1,0 +1,239 @@
+
+/* GENERAL*/
+
+.clear{
+    clear: both;
+}
+
+body,html{
+    height: 100%;
+    width: 1000px;
+    margin: auto;
+   
+}
+
+section article{
+    color: white;
+    text-align: center;
+    width: 960px;
+    
+}
+.grid{
+    display: flex;
+} 
+
+/* HEADER */
+
+#header{
+    width: 1000px;
+    margin: 0px auto;
+    background-color: #a5f7ed;
+    display: inline-flex;
+    
+}
+
+#header div{
+    width:1000px;
+    height: auto;
+}
+
+#header div ul li{
+    display: inline-block;
+    margin: 5px;  
+}
+
+#header div ul li a:hover{
+    border:hotpink 1px solid;
+    color: #000;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow:hotpink 0px 0px 3px 3px;
+    background-color: white;
+    padding: 5px;
+}
+
+#header .hd h1{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 20px;
+
+}
+
+#header, footer{
+    background-color: #a5f7ed;
+}
+#header div ul li a{
+    text-decoration: none;
+    color: white;
+    background-color: #a5f7ed;
+
+}
+div ul{
+    list-style-type: none;
+}
+
+/* MON-IMG*/
+
+.mon-img{
+    background: url("../img/header.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0px;
+}
+
+.monImg{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+
+.monImg h2,.p1{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+.monImg h2:hover{
+    text-shadow: black  3px 3px 6px;
+
+
+}
+.monImg .p1:hover{
+    text-shadow: black  3px 3px 6px;
+
+}
+
+/* #DIV2*/
+
+#div2{
+    width: 960px;
+    margin: 0px auto;
+    background-color: #a5f7ed;
+    display: inline-flex;
+    padding: 25px;
+}
+#div2 div{
+    width: 400px;
+    height: 300px;
+
+}
+#div2 h2,.p{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+
+
+#div2{
+    width: 940px;
+    height: 400px;
+    background-color: #a5f7ed;
+    padding: 30px;
+
+}
+#div2 p{
+    width: 400px;
+}
+
+/* #SECCOMMANDE*/
+
+#secCommande article img{
+    
+    width: 350px;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+
+
+}
+
+#secCommande h6,p{
+    color: black;
+}
+
+#secCommande{
+
+    padding: 2rem;
+    padding-bottom: 90px;
+
+}
+
+.buttonFr:hover{
+    color: violet;
+    background-color: wheat;
+    border-radius: 1px 1px 30px 30px;
+    border: black 1px solid;
+    box-shadow: black 0px 0px 1px 1px;
+}
+
+.buttonFr{
+    border: 1px solid #a5f7ed;
+    border-radius: 15px;
+    padding: 5px;
+    color: #a5f7ed;
+    width: 130px;
+    background-color: white;
+    
+    box-shadow: 0.5px 0.1px;
+}
+
+
+/* FOOTER*/
+#divFooter{
+    width: 1000px;
+    margin: 0px auto;
+    background-color: #a5f7ed;
+    display: inline-flex;
+}
+
+#divFooter div{
+    width:1000px;
+    height: auto;
+}
+
+footer ul{
+    list-style-type: none;
+    vertical-align: top;
+}
+
+footer ul li{
+    padding: 5px;
+    color: white; 
+
+}
+
+#divFooter .buttonF{
+    text-align: center;
+}
+
+#divFooter #b12{
+    padding-left: 30px;
+}
+
+footer{
+    margin-bottom: 90px;
+}
+
+.buttonF{
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #a5f7ed;
+    color: white;
+    width: 130px;
+    
+    box-shadow: 0.5px 0.1px;
+}
+
+.buttonF:hover{
+    color: rgb(242, 243, 250);
+    background-color:green;
+}
+
